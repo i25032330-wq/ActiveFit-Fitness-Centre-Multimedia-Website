@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Open+Sans:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">ActiveFit</div>
+            <ul class="nav-links">
+    <li><a href="#about">About</a ></li>
+    <li><a href="#services">Services</a ></li>
+    <li><a href="#video">Video</a ></li>
+    <li><a href="#contact">Contact</a ></li>
+</ul>
+        </nav>
+    </header>
+<section class="hero">
+    <div class="hero-content">
+        <h1>ACTIVEFIT FITNESS CENTRE</h1>
+        <p class="hero-sub">Build Your Better Self</p >
+    <a href="#contact" class="hero-circle-btn">Enquire Now</a>
+    </div>
+</section>
+
+<section id="about" class="about-section">
+    <h2 class="section-title">About Us</h2>
+    <div class="divider"></div>
+    <div class="about-container about-card">
+        <div class="about-text">
+            <p>ActiveFit provides affordable fitness training for university students and young adults. We offer strength training, group classes, cardio zones and one-on-one personal coaching to help you reach your fitness goals. Our gym is fully equipped with modern machines and friendly professional trainers to support your fitness journey.</p >
+        </div>
+        <div class="about-image">
+            <img src="about.jpeg" alt="Gym interior">
+        </div>
+    </div>
+</section>
+    <section id="services" class="services-section">
+    <h2 class="section-title">Our Services</h2>
+    <div class="divider"></div>
+    <div class="card-container">
+        <div class="gym-card">
+            <div class="img-box">
+                <img src="strength.jpeg" alt="Strength training with barbell bench press" loading="lazy">
+            </div>
+            <div class="card-content">
+                <i class="fa-solid fa-dumbbell card-icon"></i>
+                <h3>Strength Training</h3>
+                <p>Build muscle and improve strength with professional weight training.</p >
+            </div>
+        </div>
+
+        <div class="gym-card">
+            <div class="img-box">
+                <img src="group.jpeg" alt="Group fitness workout class" loading="lazy">
+            </div>
+            <div class="card-content">
+                <i class="fa-solid fa-users card-icon"></i>
+                <h3>Group Fitness Class</h3>
+                <p>Join fun group workouts and stay motivated together.</p >
+            </div>
+        </div>
+
+        <div class="gym-card">
+            <div class="img-box">
+                <img src="cardio.jpeg" alt="Woman running on treadmill" loading="lazy">
+            </div>
+            <div class="card-content">
+                <i class="fa-solid fa-heart-pulse card-icon"></i>
+                <h3>Cardio Workout</h3>
+                <p>Boost endurance and burn calories with cardio exercises.</p >
+            </div>
+        </div>
+
+        <div class="gym-card">
+            <div class="img-box">
+                <img src="personal.jpeg" alt="Personal trainer coaching a client" loading="lazy">
+            </div>
+            <div class="card-content">
+                <i class="fa-solid fa-user-check card-icon"></i>
+                <h3>Personal Training</h3>
+                <p>Custom training plans and one-on-one coaching from trainers.</p >
+            </div>
+        </div>
+    </div>
+</section>
+<section id="video" class="video-section">
+    <h2 class="section-title">Highlight Video</h2>
+    <div class="divider"></div>
+    <div class="video-container about-card" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:14px;">
+        <video controls style="position:absolute;top:0;left:0;width:100%;height:100%;">
+            <source src="gym.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="play-icon"></div>
+    </div>
+</section>
+
+  <section id="contact" class="contact-section">
+    <h2 class="section-title">Contact Us</h2>
+    <div class="divider"></div>
+    <div class="contact-inner">
+        <div class="contact-left about-card">
+            <div class="contact-info-block">
+                <div class="contact-item">
+                    <span class="circle-icon">
+                        <i class="fa-solid fa-phone"></i>
+                    </span>
+                    <div>
+                        <p>Phone</p >
+                        <p>+60 12-345 6789</p >
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <span class="circle-icon">
+                        <i class="fa-solid fa-envelope"></i>
+                    </span>
+                    <div>
+                        <p>Email</p >
+                        <p>activefit@fitcentre.com</p >
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <span class="circle-icon">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </span>
+                    <div>
+                        <p>Address</p >
+                        <p>No.12, University Avenue, Nilai</p >
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contact-right about-card">
+            <form class="contact-form">
+                <input type="text" placeholder="Your Full Name">
+                <input type="email" placeholder="Your Email Address">
+                <textarea placeholder="Write your message here..." rows="4"></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+    <footer>
+        <p>© 2026 ActiveFit Fitness Centre</p >
+    </footer>
+</body>
+</html>
